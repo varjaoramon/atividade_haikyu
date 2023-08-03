@@ -1,22 +1,22 @@
 .cabecalho{
     background-color: var(--cor-do-cabecalho);
     padding: 1em;
-    }
-    .container{
+}
+   
+.container{
     display: flex;
     align-items: center;
-    }
-    .container__imagem, .container__frase{
+}
+.container__imagem, .container__frase{
     padding: 1em;
-    }
-    .container__titulo, .container__frase{
+}
+.container__titulo, .container__frase{
     display:none;
-    }
+}
 
 
 
-
-    @media screen and (min-width: 820px) {
+@media screen and (min-width: 820px) {
         .container__titulo, .container__titulo--negrito {
             font-size: 30px;
         }
